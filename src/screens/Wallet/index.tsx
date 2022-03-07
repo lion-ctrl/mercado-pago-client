@@ -61,6 +61,7 @@ export const Wallet = () => {
           depositOrWithdraw === 'deposit' ? 'depositar' : 'retirar'
         }`}
         visible={showModal}
+        okText='Confirmar'
         onOk={async () => {
           setLoading(true);
           try {
